@@ -7,7 +7,7 @@ var app = express();
 app.use(logger('dev'));
 app.set('view engine', 'jade');
 
-var ngAppRootDir = path.join(__dirname, '../ng-sr/');
+var ngAppRootDir = path.join(__dirname, '../shardrealms_ng2/');
 
 // serve static files
 app.use(express.static(ngAppRootDir));
